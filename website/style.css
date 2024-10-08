@@ -1,28 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFD700; /* gold background */
-    margin: 0;
+    background-color: #f3c13a; /* Light yellow background */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 .container {
+    border: 2px solid black; /* Black border */
+    padding: 30px; /* Increased padding to add more space around the image */
     text-align: center;
-    background-color: white;
-    padding: 20px;
-    border: 5px solid black;
+    background-color: #f3c13a; /* Same color as the body */
 }
 
 h1 {
-    color: black;
-    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1px;
+  	
 }
 
 img {
-    width: 50%;
-    max-width: 500px;
+    width: 400px;
     height: auto;
-    border-radius: 10px;
+    margin-top: 20px;/* Additional margin if needed */
+  	margin-bottom: 20px;
+  	margin-right: 50px;
+  	margin-left: 80px;
 }
